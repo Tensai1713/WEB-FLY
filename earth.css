@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Rubik+Moonrocks&display=swap');
+
+/* .balsamiq-sans-regular {
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.balsamiq-sans-bold {
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.rubik-moonrocks-regular {
+  font-family: "Rubik Moonrocks", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+
+/* --------------Общие стили------------------ */
+body {
+  margin: 0;
+  font-family: "Balsamiq Sans", sans-serif;
+  font-size: 24px;
+}
+
+h1, h2 {
+  font-family: "Rubik Moonrocks", sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 48px;
+  margin-top: 0;
+}
+
+span {
+  color: #d8a600;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff ;
+  background-color: #d8a600;
+  padding: 20px 50px;
+  border-radius: 30px;
+}
+
+.up-link {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+}
+
+/* -----------------header------------ */
+
+.header {
+  background-color: #d8a600;
+  color: #fff;
+  padding: 20px 50px;
+  position: relative;
+}
+
+.logo {
+  font-size: 40px;
+  display: inline-block;
+}
+
+.header-nav {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.header-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header-nav li {
+  display: inline-block;
+}
+
+.header-nav a {
+  color: #fff;
+  display: inline-block;
+  padding: 20px;
+}
+
+.switch-link {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.switch-link img {
+  width: 110px;
+  
+}
+
+/* ----------------main----------------- */
+.main {
+
+}
+
+.about-company {
+  padding: 150px 200px;
+
+  background-color: rgb(35, 35, 35);
+  color: #fff;
+  background-image: url("./img/earth-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.about-company-title span {
+  text-transform: uppercase;
+}
+
+.about-company p {
+  margin-bottom: 0;
+}
+
+.about-company-border {
+  padding: 80px;
+  border: 7px ridge #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.about-company-title {
+
+}
+
+.selected {
+  padding: 0 5px;
+
+  color: #fff;
+  background-color: #d8a600;
+}
+
+.arrow-down-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 50px auto 0;
+  padding: 10px;
+  border:3px solid #fff;
+  border-radius: 50%;
+}
+
+.arrow-down-link img {
+  width: 40px;
+}
+
+
+.how-to-travel {
+  background-color: rgb(59, 0, 59);
+  background-image:url("./img/travel-bg.jpg");
+  background-repeat:no-repeat;
+  background-position: center;
+  padding: 0 200px;
+  color: #fff;
+  
+}
+
+.how-to-travel .btn {
+  margin-top: 30px;
+}
+
+.how-to-travel-bg {
+  background-color: rgba(35, 11, 63, 0.692);
+  padding: 100px 80px;
+}
+
+
+.tours {
+  padding: 50px 200px;
+
+  background-color: #000;
+  background-image: url("img/tours2-bg.jpg");
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.tours-title {
+  color: #fff;
+  position: relative;
+}
+
+.tours-title img {
+  width: 35px;
+  position:absolute;
+  left: 33px;
+  top: 13px;
+}
+
+.tour {
+  background-color: #fff;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 20px;
+  position: relative;
+}
+
+.tour-center {
+margin-left: auto;
+margin-right: auto;
+}
+
+.tour-right {
+  margin-left: auto;
+}
+
+.tour-planet {
+  width: 150px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+
+}
+
+.tour-border {
+  border: 2px solid #d8a600;
+  padding: 20px 10px;
+}
+
+.tour-title {
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+
+
+.tour-image {
+  width: 100%;
+}
+
+
+/* --------------footer------------------ */
+
+.footer {
+  padding: 10px 200px;
+  background-color: #d8a600;
+  color: #fff;
+}
+
+.footer a {
+  text-decoration:underline;
+  color: #7bff00;
+}
+
+
+.footer-copy {
+  font-size: 18px;
+}
+
+.footer-lecense {
+  font-size: 12px;
+}
+
+
+.sochi {
+  padding: 150px 200px;
+
+  background-color: rgb(35, 35, 35);
+  color: #fff;
+  background-image: url("./img/sochi.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.sochi-title span {
+  text-transform: uppercase;
+}
+
+.sochi p {
+  margin-bottom: 0;
+}
+
+.sochi-border {
+  padding: 80px;
+  border: 7px ridge #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.selected {
+  padding: 0 5px;
+
+  color: #fff;
+  background-color: #d8a600;
+}
+
+.arrow-down-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 50px auto 0;
+  padding: 10px;
+  border:3px solid #fff;
+  border-radius: 50%;
+}
+

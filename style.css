@@ -33,6 +33,7 @@ h1, h2 {
 
 h2 {
   font-size: 48px;
+  margin-top: 0;
 }
 
 span {
@@ -83,7 +84,6 @@ a {
 
 .header-nav li {
   display: inline-block;
-  margin-left: 80px;
 }
 
 .header-nav a {
